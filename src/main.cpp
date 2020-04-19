@@ -10,6 +10,7 @@
  */
 
 #include <pch.h>
+#include <utility.h>
 
 /**
  * @brief  The entry point of the program
@@ -19,5 +20,10 @@
  */
 int main(int argc, char* argv[])
 {
+	if(argc == 1)
+	{
+		print_usage(argv[0]);
+		return 0;
+	}
 	return 0;
 }
