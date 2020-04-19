@@ -17,7 +17,9 @@
 #endif /* _MSC_VER */
 
 // Include C++ standard headers
+#include <cstdio>
 #include <iostream>
 #include <string>
+using namespace std; /* Simplize the code */
 
 #endif /* _CPPDECORATOR_PCH_H */
