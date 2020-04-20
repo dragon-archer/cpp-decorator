@@ -20,6 +20,7 @@
 #include <cstdio>
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std; /* Simplize the code */
 
 #endif /* _CPPDECORATOR_PCH_H */

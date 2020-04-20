@@ -24,4 +24,22 @@
  */
 void print_usage(const char* progname);
 
+/**
+ * @brief Decorate `function`
+ * 
+ * @param function the function declartion
+ * @return true   no error occured, decorated function writes back to `function`
+ * @return false  some error occured, detailed error writes to `function`
+ */
+bool decorate(string& function);
+
+/**
+ * @brief Undecorate `function`
+ * 
+ * @param function the function declartion
+ * @return true   no error occured, undecorated function writes back to `function`
+ * @return false  some error occured, detailed error writes to `function`
+ */
+bool undecorate(string& function);
+
 #endif /* _CPPDECORATOR_UTILITY_H */
