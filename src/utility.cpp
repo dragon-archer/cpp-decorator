@@ -29,10 +29,11 @@ Function:
 	it can be quoted, or just "as is".
 	Some of the modifiers can be omitted.
 	The undecorated function looks like this:
-	<calling convention> <declartor> (<parameters>)
+	<declartor> <calling convention> <function name>(<parameters>)
 
-	<calling convention>: optional, default is __cdecl
 	<declartor>:          required
+	<calling convention>: optional, default is __cdecl
+	<function name>:      required
 	<parameters>:         optional, split with ','
 Return value:
 	If no error occared, return 0
