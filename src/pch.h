@@ -23,4 +23,18 @@
 #include <vector>
 using namespace std; /* Simplize the code */
 
+/**
+ * Assert macro
+ * Used by utility functions
+ * @param cond  The condition
+ * @param var   The variable to store message
+ * @param msg   The error message
+ */
+#define Assert(cond,var,msg) \
+	if(!(cond)) \
+	{ \
+		var = msg; \
+		return false; \
+	}
+
 #endif /* _CPPDECORATOR_PCH_H */
